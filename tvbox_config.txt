@@ -1,0 +1,46 @@
+{
+  "spider": "https://gitee.com/lwlxh/tvhome/raw/master/pg.jar",
+  "wallpaper": "https://tool.weetai.cn/api",
+  "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://gitee.com/chenhuili1/tvbox-iptv-source/raw/main/ipv4_tvbox.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "playerType": 1
+    }
+  ],
+  "sites": [
+    {
+      "key": "量子",
+      "name": "量子资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "乐播",
+      "name": "乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "大地",
+      "name": "大地资源",
+      "type": 0,
+      "api": "https://api.dadiapi.com/apple.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析",
+      "type": 1,
+      "url": "https://api.json.icu/api/?key=4f1fb10d30d947de8d8b4e8b2d0f8e8d&url="
+    }
+  ]
+}
