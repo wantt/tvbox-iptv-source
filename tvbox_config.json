@@ -1,21 +1,155 @@
 {
-  "spider": "",
+  "spider": "https://gitee.com/lwlxh/tvhome/raw/master/pg.jar",
   "wallpaper": "https://tool.weetai.cn/api",
-  "sites": [],
   "lives": [
     {
-      "name": "IPv4直播源(M3U)",
-      "type": 0,
-      "url": "https://gitee.com/chenhuili1/tvbox-iptv-source/raw/main/ipv4_tvbox.m3u",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
-    },
-    {
-      "name": "IPv4直播源(TXT)",
+      "name": "直播",
       "type": 0,
       "url": "https://gitee.com/chenhuili1/tvbox-iptv-source/raw/main/ipv4_tvbox.txt",
-      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
-      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}&db=tvbox",
+      "playerType": 1
+    }
+  ],
+  "sites": [
+    {
+      "key": "艾旦影视",
+      "name": "🧿艾旦┃蓝光",
+      "type": 1,
+      "api": "https://lovedan.net/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "动作片","喜剧片","爱情片","科幻片","恐怖片","犯罪片","战争片","剧情片","动画电影",
+        "国产剧","港台剧","日韩剧","欧美剧","海外剧",
+        "大陆综艺","港台综艺","日韩综艺","欧美综艺",
+        "国产动漫","日韩动漫","欧美动漫","海外动漫"
+      ]
+    },
+    {
+      "key": "量子资源",
+      "name": "🧿量子┃资源",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","动画片","奇幻片","记录片",
+        "国产剧","香港剧","台湾剧","韩国剧","日本剧","欧美剧","海外剧",
+        "大陆综艺","港台综艺","日韩综艺","欧美综艺",
+        "国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫"
+      ]
+    },
+    {
+      "key": "桃花资源",
+      "name": "🧿桃花┃资源",
+      "type": 1,
+      "api": "https://thzy.me/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "乐播资源",
+      "name": "🧿乐播┃资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "csp_XBPQ_起看",
+      "name": "🧿悦享┃蓝光",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://m.yncmfs.com/",
+        "数组": "class=\"module-item-pic\"&&</div>",
+        "链接": "href=\"&&\"",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "播放数组": "class=\"scroll-content\"&&</div>",
+        "播放列表": "<a&&a>[不包含:дрр滈凊]",
+        "播放链接": "href=\"&&\"",
+        "播放标题": ">&&</",
+        "线路数组": "class=\"module-tab-item&&</div>",
+        "线路标题": "<span>&&</span>",
+        "跳转播放链接": "var player_*\"url\":\"&&\"",
+        "分类url": "https://m.yncmfs.com/vssysw/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$31"
+      },
+      "jar": "https://gitee.com/lwlxh/tvhome/raw/master/o.jar"
+    },
+    {
+      "key": "csp_XBPQ_zhuijuba",
+      "name": "🧿追剧┃蓝光",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://zhuijuba.com/",
+        "数组": "class=\"module-item-pic\"&&</div>",
+        "链接": "href=\"&&\"",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "播放数组": "class=\"scroll-content\"&&</div>",
+        "播放列表": "<a&&a>",
+        "播放链接": "href=\"&&\"",
+        "线路数组": "class=\"module-tab-item&&</div>",
+        "线路标题": "<span>&&</span>",
+        "分类url": "https://zhuijuba.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      },
+      "jar": "https://gitee.com/lwlxh/tvhome/raw/master/o.jar"
+    },
+    {
+      "key": "好看影视",
+      "name": "🧿苹果┃蓝光",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "主页url": "https://www.haokan123.net/",
+        "数组": "class=\"module-item-pic\"&&</div>",
+        "链接": "href=\"&&\"",
+        "图片": "data-src=\"&&\"",
+        "标题": "title=\"&&\"",
+        "播放数组": "class=\"scroll-content\"&&</div>",
+        "播放列表": "<a&&a>",
+        "播放链接": "href=\"&&\"",
+        "线路数组": "class=\"module-tab-item&&</div>",
+        "线路标题": "<span>&&</span>",
+        "分类url": "https://www.haokan123.net/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      },
+      "jar": "https://gitee.com/lwlxh/tvhome/raw/master/o.jar"
+    },
+    {
+      "key": "大地资源",
+      "name": "🧿大地┃采集",
+      "type": 0,
+      "api": "https://api.dadiapi.com/apple.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
+    {
+      "key": "凤凰资源",
+      "name": "🧿凤凰┃影视",
+      "type": 1,
+      "api": "https://fhapi9.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
     }
   ],
   "parses": [
