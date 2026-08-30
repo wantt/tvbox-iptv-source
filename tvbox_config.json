@@ -1,0 +1,28 @@
+{
+  "spider": "",
+  "wallpaper": "https://tool.weetai.cn/api",
+  "sites": [],
+  "lives": [
+    {
+      "name": "IPv4直播源(M3U)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/your-username/your-repo/main/ipv4_tvbox.m3u",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    {
+      "name": "IPv4直播源(TXT)",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/your-username/your-repo/main/ipv4_tvbox.txt",
+      "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
+      "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    }
+  ],
+  "parses": [
+    {
+      "name": "Json解析",
+      "type": 1,
+      "url": "https://api.json.icu/api/?key=4f1fb10d30d947de8d8b4e8b2d0f8e8d&url="
+    }
+  ]
+}
