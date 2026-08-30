@@ -6,14 +6,14 @@
     {
       "name": "IPv4直播源(M3U)",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/your-username/your-repo/main/ipv4_tvbox.m3u",
+      "url": "https://raw.githubusercontent.com/wantt/tvbox-iptv-source/main/ipv4_tvbox.m3u",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     },
     {
       "name": "IPv4直播源(TXT)",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/your-username/your-repo/main/ipv4_tvbox.txt",
+      "url": "https://raw.githubusercontent.com/wantt/tvbox-iptv-source/main/ipv4_tvbox.txt",
       "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
     }
